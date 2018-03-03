@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234743DD1D6F914700C66417 /* Project2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 234743DB1D6F914700C66417 /* Project2.cpp */; };
+		234743E01D6F965A00C66417 /* Project3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 234743DE1D6F965A00C66417 /* Project3.cpp */; };
+		234743E31D6F971200C66417 /* Project4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 234743E11D6F971200C66417 /* Project4.cpp */; };
+		234743E61D6F98CE00C66417 /* Project5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 234743E41D6F98CE00C66417 /* Project5.cpp */; };
+		2356C20D1D6F867400920CA6 /* Assignments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2356C20B1D6F867400920CA6 /* Assignments.cpp */; };
+		2356C2111D6F8B6D00920CA6 /* Project1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2356C20F1D6F8B6D00920CA6 /* Project1.cpp */; };
 		237CD3B11D6F6CC80074AFA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237CD3B01D6F6CC80074AFA7 /* main.cpp */; };
+		237CD3BE1D6F6F000074AFA7 /* CSC126Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237CD3BC1D6F6F000074AFA7 /* CSC126Manager.cpp */; };
+		237CD3C11D6F6F0B0074AFA7 /* CSC160Manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237CD3BF1D6F6F0B0074AFA7 /* CSC160Manager.cpp */; };
+		237CD3C51D6F768D0074AFA7 /* MiscManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237CD3C31D6F768D0074AFA7 /* MiscManager.cpp */; };
+		237CD3C81D6F77D90074AFA7 /* GlobalValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237CD3C61D6F77D90074AFA7 /* GlobalValues.cpp */; };
+		237CD3CD1D6F7B240074AFA7 /* ProjectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 237CD3CB1D6F7B240074AFA7 /* ProjectManager.cpp */; };
+		23D2D8A51D70EAFF00A34766 /* Changelog.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23D2D8A41D70EAFF00A34766 /* Changelog.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +32,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		23BEB7C41D70A02200E6F2E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				23D2D8A51D70EAFF00A34766 /* Changelog.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		234743DB1D6F914700C66417 /* Project2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Project2.cpp; sourceTree = "<group>"; };
+		234743DC1D6F914700C66417 /* Project2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Project2.hpp; sourceTree = "<group>"; };
+		234743DE1D6F965A00C66417 /* Project3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Project3.cpp; sourceTree = "<group>"; };
+		234743DF1D6F965A00C66417 /* Project3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Project3.hpp; sourceTree = "<group>"; };
+		234743E11D6F971200C66417 /* Project4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Project4.cpp; sourceTree = "<group>"; };
+		234743E21D6F971200C66417 /* Project4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Project4.hpp; sourceTree = "<group>"; };
+		234743E41D6F98CE00C66417 /* Project5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Project5.cpp; sourceTree = "<group>"; };
+		234743E51D6F98CE00C66417 /* Project5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Project5.hpp; sourceTree = "<group>"; };
+		2356C20B1D6F867400920CA6 /* Assignments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Assignments.cpp; sourceTree = "<group>"; };
+		2356C20C1D6F867400920CA6 /* Assignments.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Assignments.hpp; sourceTree = "<group>"; };
+		2356C20F1D6F8B6D00920CA6 /* Project1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Project1.cpp; sourceTree = "<group>"; };
+		2356C2101D6F8B6D00920CA6 /* Project1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Project1.hpp; sourceTree = "<group>"; };
 		237CD3AD1D6F6CC80074AFA7 /* TheMasterProgram(CPP) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "TheMasterProgram(CPP)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		237CD3B01D6F6CC80074AFA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		237CD3BC1D6F6F000074AFA7 /* CSC126Manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSC126Manager.cpp; sourceTree = "<group>"; };
+		237CD3BD1D6F6F000074AFA7 /* CSC126Manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CSC126Manager.hpp; sourceTree = "<group>"; };
+		237CD3BF1D6F6F0B0074AFA7 /* CSC160Manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSC160Manager.cpp; sourceTree = "<group>"; };
+		237CD3C01D6F6F0B0074AFA7 /* CSC160Manager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CSC160Manager.hpp; sourceTree = "<group>"; };
+		237CD3C31D6F768D0074AFA7 /* MiscManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiscManager.cpp; sourceTree = "<group>"; };
+		237CD3C41D6F768D0074AFA7 /* MiscManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MiscManager.hpp; sourceTree = "<group>"; };
+		237CD3C61D6F77D90074AFA7 /* GlobalValues.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GlobalValues.cpp; sourceTree = "<group>"; };
+		237CD3C71D6F77D90074AFA7 /* GlobalValues.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GlobalValues.hpp; sourceTree = "<group>"; };
+		237CD3CB1D6F7B240074AFA7 /* ProjectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProjectManager.cpp; sourceTree = "<group>"; };
+		237CD3CC1D6F7B240074AFA7 /* ProjectManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProjectManager.hpp; sourceTree = "<group>"; };
+		23D2D8A41D70EAFF00A34766 /* Changelog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = Changelog.txt; path = "TheMasterProgram(CPP)/Changelog.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +83,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2356C20E1D6F8B5F00920CA6 /* Class Projects */ = {
+			isa = PBXGroup;
+			children = (
+				2356C20F1D6F8B6D00920CA6 /* Project1.cpp */,
+				2356C2101D6F8B6D00920CA6 /* Project1.hpp */,
+				234743DB1D6F914700C66417 /* Project2.cpp */,
+				234743DC1D6F914700C66417 /* Project2.hpp */,
+				234743DE1D6F965A00C66417 /* Project3.cpp */,
+				234743DF1D6F965A00C66417 /* Project3.hpp */,
+				234743E11D6F971200C66417 /* Project4.cpp */,
+				234743E21D6F971200C66417 /* Project4.hpp */,
+				234743E41D6F98CE00C66417 /* Project5.cpp */,
+				234743E51D6F98CE00C66417 /* Project5.hpp */,
+			);
+			name = "Class Projects";
+			sourceTree = "<group>";
+		};
 		237CD3A41D6F6CC80074AFA7 = {
 			isa = PBXGroup;
 			children = (
+				23D2D8A41D70EAFF00A34766 /* Changelog.txt */,
 				237CD3AF1D6F6CC80074AFA7 /* TheMasterProgram(CPP) */,
 				237CD3AE1D6F6CC80074AFA7 /* Products */,
 			);
@@ -57,9 +120,62 @@
 		237CD3AF1D6F6CC80074AFA7 /* TheMasterProgram(CPP) */ = {
 			isa = PBXGroup;
 			children = (
+				237CD3C21D6F76810074AFA7 /* Misc */,
+				237CD3BB1D6F6ECB0074AFA7 /* CSC126 */,
+				237CD3BA1D6F6EC60074AFA7 /* CSC160 */,
 				237CD3B01D6F6CC80074AFA7 /* main.cpp */,
+				237CD3C61D6F77D90074AFA7 /* GlobalValues.cpp */,
+				237CD3C71D6F77D90074AFA7 /* GlobalValues.hpp */,
 			);
 			path = "TheMasterProgram(CPP)";
+			sourceTree = "<group>";
+		};
+		237CD3BA1D6F6EC60074AFA7 /* CSC160 */ = {
+			isa = PBXGroup;
+			children = (
+				237CD3CA1D6F7A630074AFA7 /* Projects */,
+				237CD3C91D6F7A5E0074AFA7 /* Assignments */,
+				237CD3BF1D6F6F0B0074AFA7 /* CSC160Manager.cpp */,
+				237CD3C01D6F6F0B0074AFA7 /* CSC160Manager.hpp */,
+			);
+			name = CSC160;
+			sourceTree = "<group>";
+		};
+		237CD3BB1D6F6ECB0074AFA7 /* CSC126 */ = {
+			isa = PBXGroup;
+			children = (
+				237CD3BC1D6F6F000074AFA7 /* CSC126Manager.cpp */,
+				237CD3BD1D6F6F000074AFA7 /* CSC126Manager.hpp */,
+			);
+			name = CSC126;
+			sourceTree = "<group>";
+		};
+		237CD3C21D6F76810074AFA7 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				237CD3C31D6F768D0074AFA7 /* MiscManager.cpp */,
+				237CD3C41D6F768D0074AFA7 /* MiscManager.hpp */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		237CD3C91D6F7A5E0074AFA7 /* Assignments */ = {
+			isa = PBXGroup;
+			children = (
+				2356C20B1D6F867400920CA6 /* Assignments.cpp */,
+				2356C20C1D6F867400920CA6 /* Assignments.hpp */,
+			);
+			name = Assignments;
+			sourceTree = "<group>";
+		};
+		237CD3CA1D6F7A630074AFA7 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				2356C20E1D6F8B5F00920CA6 /* Class Projects */,
+				237CD3CB1D6F7B240074AFA7 /* ProjectManager.cpp */,
+				237CD3CC1D6F7B240074AFA7 /* ProjectManager.hpp */,
+			);
+			name = Projects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +188,7 @@
 				237CD3A91D6F6CC80074AFA7 /* Sources */,
 				237CD3AA1D6F6CC80074AFA7 /* Frameworks */,
 				237CD3AB1D6F6CC80074AFA7 /* CopyFiles */,
+				23BEB7C41D70A02200E6F2E0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -118,7 +235,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237CD3C81D6F77D90074AFA7 /* GlobalValues.cpp in Sources */,
+				234743E01D6F965A00C66417 /* Project3.cpp in Sources */,
+				237CD3C11D6F6F0B0074AFA7 /* CSC160Manager.cpp in Sources */,
 				237CD3B11D6F6CC80074AFA7 /* main.cpp in Sources */,
+				2356C20D1D6F867400920CA6 /* Assignments.cpp in Sources */,
+				234743E61D6F98CE00C66417 /* Project5.cpp in Sources */,
+				237CD3CD1D6F7B240074AFA7 /* ProjectManager.cpp in Sources */,
+				234743DD1D6F914700C66417 /* Project2.cpp in Sources */,
+				2356C2111D6F8B6D00920CA6 /* Project1.cpp in Sources */,
+				234743E31D6F971200C66417 /* Project4.cpp in Sources */,
+				237CD3BE1D6F6F000074AFA7 /* CSC126Manager.cpp in Sources */,
+				237CD3C51D6F768D0074AFA7 /* MiscManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +367,7 @@
 				237CD3B61D6F6CC80074AFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
