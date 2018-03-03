@@ -1,4 +1,4 @@
 # TheMasterProgramCpp
-# Author: Jarrod Raine
+Author: Jarrod Raine
 
-# This is a C++ translation of my Java Programming Class Assignments, which I nicknamed "The Master Program".
+This is a C++ translation of my Java Programming Class Assignments, which I nicknamed "The Master Program".
